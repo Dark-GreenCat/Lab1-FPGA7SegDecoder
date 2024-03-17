@@ -1,0 +1,7 @@
+module display_7segment(
+	input [3:0] sw,
+	output [6:0] segment
+	);
+	
+	wire x = sw[3];
+endmodule
